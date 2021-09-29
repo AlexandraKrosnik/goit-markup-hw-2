@@ -162,6 +162,7 @@ body {
   letter-spacing: 0.03em;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .radio-button:focus,
 .radio-button:hover {
