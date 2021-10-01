@@ -5,7 +5,8 @@
   --primary-white-color: #ffffff;
   --logo-black: #000000;
   --second-bg-color: #f5f4fa;
-  --hero-bg: #2f303a;
+  --hero-footer-bg: #2f303a;
+  --addres-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--primary-white-color);
@@ -67,7 +68,7 @@ body {
 /* Hero */
 .hero {
   padding: 200px 452px;
-  background-color: var(--hero-bg);
+  background-color: var(--hero-footer-bg);
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -141,15 +142,20 @@ body {
 }
 /* footer */
 .main-footer {
-  background-color: #2f303a;
+  background-color: var(--hero-footer-bg);
 }
 .addres-descr {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--addres-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.addres-descr .feedback-inf {
+  color: var(--addres-color);
+  font-weight: 400;
+  line-height: 1.71;
 }
 .addres-descr .ftr-add {
   color: var(--primary-white-color);
@@ -161,7 +167,7 @@ body {
 /* radio button */
 
 .radio-button {
-  background-color: #f5f4fa;
+  background-color: var(--second-bg-color);
   color: var(--title-text-color);
 
   font-family: Roboto;
